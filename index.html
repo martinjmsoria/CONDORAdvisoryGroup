@@ -3,7 +3,55 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Condor Advisory Group</title>
+<title>Condor Advisory Group | Business Consulting for SMBs | Barcelona</title>
+<meta name="description" content="Condor Advisory Group helps small and medium businesses grow through operational audits, fractional leadership, focused projects, and access to financing. Based in Barcelona, serving SMBs across Europe.">
+<meta name="keywords" content="consulting small business, SMB consulting, business consultant Barcelona, operational consulting, fractional COO, small company growth consultant, pymes consultoria, consultoria operacional, crecimiento empresarial, auditoria operacional, liderazgo fraccionado, consultoria barcelona">
+<meta name="author" content="Condor Advisory Group">
+<meta name="robots" content="index, follow">
+<meta name="language" content="English, Spanish">
+<link rel="canonical" href="https://martinjmsoria.github.io/CONDORAdvisoryGroup/">
+
+<!-- Open Graph / LinkedIn / WhatsApp -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://martinjmsoria.github.io/CONDORAdvisoryGroup/">
+<meta property="og:title" content="Condor Advisory Group | Business Consulting for SMBs">
+<meta property="og:description" content="We help small and medium businesses unlock their potential — operational clarity, revenue growth, and access to capital. Based in Barcelona.">
+<meta property="og:image" content="https://images.unsplash.com/photo-1552664730-d307ca884978?w=1200&q=80">
+<meta property="og:locale" content="en_US">
+<meta property="og:locale:alternate" content="es_ES">
+<meta property="og:site_name" content="Condor Advisory Group">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Condor Advisory Group | SMB Consulting">
+<meta name="twitter:description" content="Operational audits, fractional leadership, and capital access for small and medium businesses.">
+<meta name="twitter:image" content="https://images.unsplash.com/photo-1552664730-d307ca884978?w=1200&q=80">
+
+<!-- Schema.org structured data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "Condor Advisory Group",
+  "description": "Business consulting firm specialising in operational audits, fractional leadership, focused projects, and capital access for small and medium-sized businesses.",
+  "url": "https://martinjmsoria.github.io/CONDORAdvisoryGroup/",
+  "logo": "https://martinjmsoria.github.io/CONDORAdvisoryGroup/",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Barcelona",
+    "addressCountry": "ES"
+  },
+  "areaServed": ["Spain", "Europe"],
+  "serviceType": ["Business Consulting", "Operational Audit", "Fractional COO", "SMB Advisory", "Business Financing"],
+  "knowsLanguage": ["en", "es"],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "email": "hello@condoradvisory.com",
+    "contactType": "customer service",
+    "availableLanguage": ["English", "Spanish"]
+  }
+}
+</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Barlow:wght@300;400;500;600&display=swap" rel="stylesheet">
 <style>
@@ -289,6 +337,38 @@ footer{background:var(--navy);border-top:1px solid rgba(255,255,255,0.07);paddin
   .partner-card{padding:28px 24px;}
   .val-card{padding:28px 24px;}
 }
+
+/* ── PHOTO BREAK ── */
+.photo-break{padding:0;overflow:hidden;}
+.photo-break-inner{display:grid;grid-template-columns:repeat(3,1fr);height:320px;gap:3px;}
+.photo-img{background-size:cover;background-position:center;transition:transform .6s ease;}
+.photo-img:hover{transform:scale(1.02);}
+@media(max-width:900px){.photo-break-inner{height:200px;}}
+@media(max-width:600px){.photo-break-inner{grid-template-columns:1fr;height:220px;}.photo-img:nth-child(2),.photo-img:nth-child(3){display:none;}}
+
+/* ── SERVICES MOBILE/DESKTOP TOGGLE ── */
+.svc-desktop{display:flex;flex-direction:column;}
+.svc-mobile{display:none;}
+.svc-cards{display:grid;grid-template-columns:1fr 1fr;gap:16px;}
+.svc-card{background:var(--white);border:1px solid var(--border);border-radius:var(--r);padding:24px 22px;display:flex;flex-direction:column;gap:6px;transition:all .2s;text-decoration:none;color:inherit;}
+.svc-card:hover{border-color:var(--border-mid);transform:translateY(-2px);box-shadow:0 6px 20px rgba(13,30,53,0.07);}
+.svc-card-num{font-family:var(--serif);font-size:12px;color:var(--muted);}
+.svc-card-icon{font-size:28px;margin:4px 0 8px;}
+.svc-card-title{font-family:var(--serif);font-size:20px;color:var(--ink);font-weight:400;line-height:1.2;}
+.svc-card-desc{font-size:13px;color:var(--ink3);line-height:1.6;font-weight:300;flex:1;margin-top:4px;}
+.svc-card-time{font-size:11px;color:var(--muted);margin-top:12px;padding-top:12px;border-top:1px solid var(--border);font-weight:500;letter-spacing:0.02em;}
+@media(max-width:900px){
+  .svc-desktop{display:none!important;}
+  .svc-mobile{display:block!important;}
+}
+@media(max-width:500px){
+  .svc-cards{grid-template-columns:1fr;}
+}
+
+/* ── FRAMEWORK 6 STEPS ── */
+.fw-steps-6{grid-template-columns:repeat(6,1fr)!important;}
+@media(max-width:900px){.fw-steps-6{grid-template-columns:repeat(3,1fr)!important;}}
+@media(max-width:600px){.fw-steps-6{grid-template-columns:repeat(2,1fr)!important;}}
 </style>
 </head>
 <body>
@@ -378,6 +458,16 @@ footer{background:var(--navy);border-top:1px solid rgba(255,255,255,0.07);paddin
 
 <div class="divider-line"></div>
 
+
+<!-- ── PHOTO BREAK ── -->
+<div class="photo-break">
+  <div class="photo-break-inner">
+    <div class="photo-img" style="background-image:url('https://images.unsplash.com/photo-1552664730-d307ca884978?w=900&q=80&fit=crop');" role="img" aria-label="Business consulting session"></div>
+    <div class="photo-img" style="background-image:url('https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=900&q=80&fit=crop');" role="img" aria-label="Team working together"></div>
+    <div class="photo-img" style="background-image:url('https://images.unsplash.com/photo-1573164713988-8665fc963095?w=900&q=80&fit=crop');" role="img" aria-label="Strategy planning"></div>
+  </div>
+</div>
+
 <!-- ── SERVICES ── -->
 <section class="section bg-light" id="services">
   <div class="section-inner">
@@ -386,11 +476,57 @@ footer{background:var(--navy);border-top:1px solid rgba(255,255,255,0.07);paddin
       <p class="intro en">Each engagement starts with a conversation. We define scope, objective, and expected outcome before any commitment is made.</p>
       <p class="intro es">Cada proyecto empieza con una conversación. Definimos alcance, objetivo y resultado esperado antes de cualquier compromiso.</p>
     </div>
-    <div class="svc-list">
+
+    <!-- Desktop: row layout | Mobile: card layout -->
+    <div class="svc-list svc-desktop">
       <div class="svc-row"><div class="svc-num">01</div><div><div class="svc-title en">Operational Audit</div><div class="svc-title es">Auditoría Operacional</div></div><div class="svc-desc en">A structured diagnosis of your business. We identify where capacity is locked and what's holding back growth — with a clear, prioritised action plan.</div><div class="svc-desc es">Un diagnóstico estructurado de tu negocio. Identificamos dónde está bloqueada la capacidad y qué frena el crecimiento — con un plan de acción claro y priorizado.</div><div class="svc-meta en">2–4 weeks<br>Fixed fee</div><div class="svc-meta es">2–4 semanas<br>Precio fijo</div><div class="svc-arrow">→</div></div>
       <div class="svc-row"><div class="svc-num">02</div><div><div class="svc-title en">Fractional Leadership</div><div class="svc-title es">Liderazgo Fraccionado</div></div><div class="svc-desc en">Senior operational or commercial leadership embedded part-time in your team. For businesses that need an experienced COO or Ops lead without the full-time cost.</div><div class="svc-desc es">Liderazgo operacional o comercial senior a tiempo parcial en tu equipo. Para empresas que necesitan un COO con experiencia sin el coste a tiempo completo.</div><div class="svc-meta en">3–12 months<br>Monthly</div><div class="svc-meta es">3–12 meses<br>Mensual</div><div class="svc-arrow">→</div></div>
       <div class="svc-row"><div class="svc-num">03</div><div><div class="svc-title en">Focused Projects</div><div class="svc-title es">Proyectos de Impacto</div></div><div class="svc-desc en">A specific problem, a defined scope, a measurable outcome. Cost recovery, commercial redesign, team productivity — executed hands-on with your team.</div><div class="svc-desc es">Un problema específico, un alcance definido, un resultado medible. Recuperación de costes, rediseño comercial, productividad — ejecutado directamente con tu equipo.</div><div class="svc-meta en">4–12 weeks<br>Project fee</div><div class="svc-meta es">4–12 semanas<br>Por proyecto</div><div class="svc-arrow">→</div></div>
       <div class="svc-row"><div class="svc-num">04</div><div><div class="svc-title en">Financing &amp; Capital Access</div><div class="svc-title es">Financiación &amp; Acceso a Capital</div></div><div class="svc-desc en">We help SMBs identify, structure, and access the right funding — from bank financing to alternative capital. Together with our financial partner, we prepare your business to be investment-ready.</div><div class="svc-desc es">Ayudamos a las pymes a identificar, estructurar y acceder a la financiación adecuada. Junto a nuestro partner financiero, preparamos tu empresa para estar lista para la inversión.</div><div class="svc-meta en">Varies</div><div class="svc-meta es">Variable</div><div class="svc-arrow">→</div></div>
+    </div>
+
+    <!-- Mobile: card grid -->
+    <div class="svc-cards svc-mobile">
+      <a href="#contact" class="svc-card">
+        <div class="svc-card-num">01</div>
+        <div class="svc-card-icon">🔍</div>
+        <div class="svc-card-title en">Operational Audit</div>
+        <div class="svc-card-title es">Auditoría Operacional</div>
+        <div class="svc-card-desc en">Structured diagnosis of your business. Clear action plan with priorities and financial impact.</div>
+        <div class="svc-card-desc es">Diagnóstico estructurado de tu negocio. Plan de acción claro con prioridades e impacto financiero.</div>
+        <div class="svc-card-time en">2–4 weeks · Fixed fee</div>
+        <div class="svc-card-time es">2–4 semanas · Precio fijo</div>
+      </a>
+      <a href="#contact" class="svc-card">
+        <div class="svc-card-num">02</div>
+        <div class="svc-card-icon">🧭</div>
+        <div class="svc-card-title en">Fractional Leadership</div>
+        <div class="svc-card-title es">Liderazgo Fraccionado</div>
+        <div class="svc-card-desc en">Senior COO or Ops lead embedded part-time. All the experience, without the full-time cost.</div>
+        <div class="svc-card-desc es">COO o Director de Ops sénior a tiempo parcial. Toda la experiencia, sin el coste completo.</div>
+        <div class="svc-card-time en">3–12 months · Monthly</div>
+        <div class="svc-card-time es">3–12 meses · Mensual</div>
+      </a>
+      <a href="#contact" class="svc-card">
+        <div class="svc-card-num">03</div>
+        <div class="svc-card-icon">⚡</div>
+        <div class="svc-card-title en">Focused Projects</div>
+        <div class="svc-card-title es">Proyectos de Impacto</div>
+        <div class="svc-card-desc en">One specific problem, defined scope, measurable outcome. Cost recovery, commercial redesign, productivity.</div>
+        <div class="svc-card-desc es">Un problema específico, alcance definido, resultado medible. Costes, diseño comercial, productividad.</div>
+        <div class="svc-card-time en">4–12 weeks · Project fee</div>
+        <div class="svc-card-time es">4–12 semanas · Por proyecto</div>
+      </a>
+      <a href="#contact" class="svc-card">
+        <div class="svc-card-num">04</div>
+        <div class="svc-card-icon">💶</div>
+        <div class="svc-card-title en">Financing &amp; Capital</div>
+        <div class="svc-card-title es">Financiación &amp; Capital</div>
+        <div class="svc-card-desc en">Find, structure, and access the right funding to grow — bank financing to alternative capital.</div>
+        <div class="svc-card-desc es">Encontrá, estructurá y accedé a la financiación adecuada — desde banca hasta capital alternativo.</div>
+        <div class="svc-card-time en">Varies · By engagement</div>
+        <div class="svc-card-time es">Variable · Por proyecto</div>
+      </a>
     </div>
   </div>
 </section>
@@ -413,12 +549,13 @@ footer{background:var(--navy);border-top:1px solid rgba(255,255,255,0.07);paddin
       <div class="fw-card"><div class="fw-card-tag en">What you get</div><div class="fw-card-tag es">Qué obtienes</div><div class="fw-card-title en">Clarity, structure, and a team that runs independently.</div><div class="fw-card-title es">Claridad, estructura y un equipo que funciona solo.</div><div class="fw-card-body en">A clear picture of where your business stands. A prioritised plan with financial targets. Hands-on implementation. And at the end — a business that runs better without us.</div><div class="fw-card-body es">Una imagen clara de dónde está tu empresa. Un plan priorizado con objetivos financieros. Implementación directa. Y al final — un negocio que funciona mejor sin nosotros.</div></div>
       <div class="fw-card"><div class="fw-card-tag en">How it works</div><div class="fw-card-tag es">Cómo funciona</div><div class="fw-card-title en">We embed, we work, we transfer.</div><div class="fw-card-title es">Nos integramos, trabajamos, transferimos.</div><div class="fw-card-body en">We don't hand over reports and leave. We work inside the business in weekly sessions with real deliverables at each stage. Rigorous methodology. Practical approach. The goal is always independence.</div><div class="fw-card-body es">No entregamos informes y nos vamos. Trabajamos dentro del negocio en sesiones semanales con entregables reales. Metodología rigurosa. Enfoque práctico. El objetivo es siempre la independencia.</div></div>
     </div>
-    <div class="fw-steps">
+    <div class="fw-steps fw-steps-6">
       <div class="fw-step"><div class="fw-step-n">01</div><div class="fw-step-t en">Diagnose</div><div class="fw-step-t es">Diagnosticar</div><div class="fw-step-h en">Map the business. Find where value is trapped.</div><div class="fw-step-h es">Mapear el negocio. Encontrar dónde está atrapado el valor.</div></div>
       <div class="fw-step"><div class="fw-step-n">02</div><div class="fw-step-t en">Align</div><div class="fw-step-t es">Alinear</div><div class="fw-step-h en">Build shared clarity. Agree on what matters most.</div><div class="fw-step-h es">Construir claridad compartida. Acordar qué importa más.</div></div>
       <div class="fw-step"><div class="fw-step-n">03</div><div class="fw-step-t en">Design</div><div class="fw-step-t es">Diseñar</div><div class="fw-step-h en">Build the plan. Owners, timelines, targets.</div><div class="fw-step-h es">Construir el plan. Responsables, plazos, objetivos.</div></div>
-      <div class="fw-step"><div class="fw-step-n">04</div><div class="fw-step-t en">Execute</div><div class="fw-step-t es">Ejecutar</div><div class="fw-step-h en">Hands-on work inside your team.</div><div class="fw-step-h es">Trabajo directo dentro de tu equipo.</div></div>
-      <div class="fw-step"><div class="fw-step-n">05</div><div class="fw-step-t en">Transfer</div><div class="fw-step-t es">Transferir</div><div class="fw-step-h en">Build capability. You run it. We step back.</div><div class="fw-step-h es">Construir capacidad. Lo gestionáis vosotros.</div></div>
+      <div class="fw-step"><div class="fw-step-n">04</div><div class="fw-step-t en">Execute</div><div class="fw-step-t es">Ejecutar</div><div class="fw-step-h en">Hands-on work inside your team. Real change.</div><div class="fw-step-h es">Trabajo directo dentro de tu equipo. Cambio real.</div></div>
+      <div class="fw-step"><div class="fw-step-n">05</div><div class="fw-step-t en">Measure</div><div class="fw-step-t es">Medir</div><div class="fw-step-h en">Track impact in numbers. Cost, revenue, time saved.</div><div class="fw-step-h es">Seguimiento del impacto en números. Costes, ingresos, tiempo ahorrado.</div></div>
+      <div class="fw-step"><div class="fw-step-n">06</div><div class="fw-step-t en">Transfer</div><div class="fw-step-t es">Transferir</div><div class="fw-step-h en">Build capability. You run it. We step back.</div><div class="fw-step-h es">Construir capacidad. Lo gestionáis vosotros.</div></div>
     </div>
     <div class="fw-cta">
       <p class="fw-cta-t en">The framework only makes sense when applied to your specific situation. Let's have that conversation.</p>
