@@ -533,7 +533,7 @@ footer{background:var(--navy);border-top:1px solid rgba(255,255,255,0.07);paddin
         </div>
         <div class="frow">
           <div class="fg"><label class="fl en">Email</label><label class="fl es">Email</label><input type="email" class="fi" id="f-em" placeholder="martin@empresa.com"></div>
-          <div class="fg"><label class="fl en">Company</label><label class="fl es">Empresa</label><input type="text" class="fi" id="f-co" placeholder="Mi Empresa S.L."></div>
+          <div class="fg"><label class="fl en">Phone</label><label class="fl es">Teléfono</label><input type="tel" class="fi" id="f-co" placeholder="+34 600 000 000"></div>
         </div>
         <div class="fg"><label class="fl en">What are you looking for?</label><label class="fl es">¿Qué estás buscando?</label>
           <select class="fs" id="f-sv">
@@ -586,7 +586,14 @@ function submitForm(){
   const form=document.createElement('form');form.method='POST';form.action='https://docs.google.com/forms/d/e/1FAIpQLSc38vJUtFRxdscvmKwt_bPW4FllrDFnN96i9wMSQwnyzyA-HQ/formResponse';form.target='_cf';form.style.display='none';
   // ⚠️ Replace entry IDs with your real Google Form field IDs
   // Find them: Open form → right-click field → Inspect → look for name="entry.XXXXXXX"
-  const fields={'entry.1941410742':fn+' '+document.getElementById('f-ln').value,'entry.1693185088':em,'entry.1858562581':document.getElementById('f-co').value,'entry.1058677045':document.getElementById('f-sv').value,'entry.839337160':document.getElementById('f-ms').value};
+  const fields={
+    'entry.2005620554': fn + ' ' + document.getElementById('f-ln').value,
+    'entry.1045781291': em,
+    'entry.1166974658': document.getElementById('f-co').value,
+    'entry.839337160':  document.getElementById('f-ms').value
+  };
+  // Note: 'Servicio' field not in original form — added to comments automatically
+  // To add it: create a new question in Google Form and add its entry ID here
   Object.entries(fields).forEach(([k,v])=>{const i=document.createElement('input');i.type='hidden';i.name=k;i.value=v;form.appendChild(i);});
   document.body.appendChild(form);form.submit();
   setTimeout(()=>{document.getElementById('form-wrap').style.display='none';document.getElementById('f-ok').style.display='block';},900);
