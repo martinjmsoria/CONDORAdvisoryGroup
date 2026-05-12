@@ -28,7 +28,32 @@
 <meta name="twitter:description" content="Auditorías operacionales, COO fraccionado y financiación para pymes. Barcelona.">
 <meta name="twitter:image" content="https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=1200&q=80">
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"ProfessionalService","name":"Condor Advisory Group","alternateName":["Condor Advisory","condorag.com"],"description":"Consultoría especializada para pequeñas y medianas empresas. Auditorías operacionales, liderazgo fraccionado, proyectos de alto impacto y acceso a financiación. Barcelona, España.","url":"https://www.condorag.com/","email":"hello@condoradvisory.com","priceRange":"€€","address":{"@type":"PostalAddress","addressLocality":"Barcelona","addressRegion":"Cataluña","addressCountry":"ES"},"geo":{"@type":"GeoCoordinates","latitude":"41.3851","longitude":"2.1734"},"areaServed":[{"@type":"Country","name":"Spain"},{"@type":"Continent","name":"Europe"}],"hasOfferCatalog":{"@type":"OfferCatalog","name":"Servicios de Consultoría","itemListElement":[{"@type":"Offer","itemOffered":{"@type":"Service","name":"Auditoría Operacional","description":"Diagnóstico estructurado 2-4 semanas con plan de acción priorizado e impacto financiero medible."}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Liderazgo Fraccionado","description":"COO o Director de Operaciones sénior a tiempo parcial integrado en el equipo de la empresa."}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Proyectos de Impacto","description":"Reducción de costes, rendimiento comercial o productividad. Alcance y resultados definidos desde el inicio."}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Financiación y Capital","description":"Identificamos, estructuramos y conectamos pymes con la financiación adecuada para crecer."}}]},"knowsLanguage":["es","en"],"contactPoint":{"@type":"ContactPoint","email":"hello@condoradvisory.com","contactType":"sales","availableLanguage":["Spanish","English"]}}</script>
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"¿Qué es la consultoría operacional para pymes?","acceptedAnswer":{"@type":"Answer","text":"La consultoría operacional para pymes analiza cómo funciona tu empresa e identifica dónde se pierden tiempo, dinero y capacidad. El resultado es un plan de acción claro con impacto financiero medible."}},{"@type":"Question","name":"¿Qué es un COO fraccionado o liderazgo fraccionado?","acceptedAnswer":{"@type":"Answer","text":"Un COO fraccionado es un Director de Operaciones sénior que trabaja a tiempo parcial integrado en tu equipo. Permite a las pymes acceder a liderazgo ejecutivo experimentado sin el coste a tiempo completo."}},{"@type":"Question","name":"¿Cómo pueden las pymes acceder a financiación en España?","acceptedAnswer":{"@type":"Answer","text":"Las pymes en España pueden acceder a préstamos bancarios, líneas ICO, capital privado o alternativo. Condor Advisory Group ayuda a estructurar los estados financieros y conectar con los partners adecuados."}},{"@type":"Question","name":"What makes Condor Advisory Group different from traditional consulting?","acceptedAnswer":{"@type":"Answer","text":"Unlike large firms that deliver reports and leave, Condor works hands-on inside your team. We focus exclusively on SMBs, bring senior involvement at every stage, and measure results in financial impact — not billable hours."}}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"¿Qué es la consultoría operacional para pymes?","acceptedAnswer":{"@type":"Answer","text":"La consultoría operacional para pymes analiza cómo funciona tu empresa e identifica dónde se pierden tiempo, dinero y capacidad. El resultado es un plan de acción claro con impacto financiero medible."}},{"@type":"Question","name":"¿Qué es un COO fraccionado o liderazgo fraccionado?","acceptedAnswer":{"@type":"Answer","text":"Un COO fraccionado es un Director de Operaciones sénior que trabaja a tiempo parcial integrado en tu equipo. Permite a las pymes acceder a liderazgo ejecutivo experimentado sin el coste a tiempo completo."}},{"@type":"Question","name":"¿Cómo pueden las pymes acceder a financiación en España?","acceptedAnswer":{"@type":"Answer","text":"Las pymes en España pueden acceder a préstamos bancarios, líneas ICO, capital privado o alternativo. Condor Advisory Group ayuda a estructurar los estados financieros y conectar con los partners adecuados."}},{"@type":"Question","name":"What makes Condor Advisory Group different from traditional consulting?","acceptedAnswer":{"@type":"Answer","text":"Unlike large firms that deliver reports and leave, Condor works hands-on inside your team. We focus exclusively on SMBs, bring senior involvement at every stage, and measure results in financial impact — not billable hours."}}]}
+
+// Cookie consent
+function acceptCookies(){
+  localStorage.setItem('cookieConsent','accepted');
+  document.getElementById('cookie-banner').style.display='none';
+}
+function rejectCookies(){
+  localStorage.setItem('cookieConsent','rejected');
+  document.getElementById('cookie-banner').style.display='none';
+}
+function showPrivacy(){
+  document.getElementById('privacy-modal').style.display='block';
+  document.body.style.overflow='hidden';
+}
+function hidePrivacy(){
+  document.getElementById('privacy-modal').style.display='none';
+  document.body.style.overflow='';
+}
+// Show cookie banner if no consent stored
+window.addEventListener('load',function(){
+  if(!localStorage.getItem('cookieConsent')){
+    document.getElementById('cookie-banner').style.display='flex';
+  }
+});
+</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://images.unsplash.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Barlow:wght@300;400;500;600&display=swap" rel="stylesheet">
@@ -470,7 +495,7 @@ footer{background:var(--navy);border-top:1px solid rgba(255,255,255,0.07);paddin
     <p class="intro en">We work with carefully selected partners who extend what we can offer — in AI-driven operations and structured finance.</p>
     <p class="intro es">Trabajamos con partners seleccionados que amplían lo que podemos ofrecer — en operaciones con IA y finanzas estructuradas.</p>
     <div class="partners-grid">
-      <div class="pcard"><span class="ptag ptag-tech en">Technology Partner</span><span class="ptag ptag-tech es">Partner Tecnológico</span><div class="pname">Astor AI</div><div class="pdom">astor-ai.tech</div><div class="pdesc en">Astor AI helps businesses close operational gaps using AI-powered workflows. Where we identify process inefficiencies, Astor builds the automation to fix them permanently, at scale.</div><div class="pdesc es">Astor AI ayuda a las empresas a cerrar brechas operacionales mediante flujos de trabajo con IA. Donde nosotros identificamos ineficiencias, Astor construye la automatización para solucionarlas de forma permanente y a escala.</div><div class="pitems"><div class="pitem"><div class="pdot"></div><span class="en">AI workflow design and automation</span><span class="es">Diseño de flujos de trabajo con IA</span></div><div class="pitem"><div class="pdot"></div><span class="en">Process digitisation for SMBs</span><span class="es">Digitalización de procesos para pymes</span></div><div class="pitem"><div class="pdot"></div><span class="en">Operational tooling and integration</span><span class="es">Herramientas operacionales e integración</span></div></div><a href="https://astor-ai.tech" target="_blank" rel="noopener" class="plink plink-t"><span class="en">Visit Astor AI →</span><span class="es">Visitar Astor AI →</span></a></div>
+      <div class="pcard"><span class="ptag ptag-tech en">Technology Partner</span><span class="ptag ptag-tech es">Partner Tecnológico</span><div class="pname">Astor AI</div><div class="pdom">astor-ai.tech</div><div class="pdesc en">Astor AI helps businesses close operational gaps using AI-powered workflows. Where we identify process inefficiencies, Astor builds the automation to fix them permanently, at scale.</div><div class="pdesc es">Astor AI ayuda a las empresas a cerrar brechas operacionales mediante flujos de trabajo con IA. Donde nosotros identificamos ineficiencias, Astor construye la automatización para solucionarlas de forma permanente y a escala.</div><div class="pitems"><div class="pitem"><div class="pdot"></div><span class="en">AI workflow design and automation</span><span class="es">Diseño de flujos de trabajo con IA</span></div><div class="pitem"><div class="pdot"></div><span class="en">Process digitisation for SMBs</span><span class="es">Digitalización de procesos para pymes</span></div><div class="pitem"><div class="pdot"></div><span class="en">Operational tooling and integration</span><span class="es">Herramientas operacionales e integración</span></div></div><a href="https://www.astor-ai.tech" target="_blank" rel="noopener" class="plink plink-t"><span class="en">Visit Astor AI →</span><span class="es">Visitar Astor AI →</span></a></div>
       <div class="pcard"><span class="ptag ptag-fin en">Financial Partner</span><span class="ptag ptag-fin es">Partner Financiero</span><div class="pname">Axis Advisors</div><div class="pdom">axisadvisors.co</div><div class="pdesc en">Axis Advisors specialises in accounting, finance and banking for growing businesses. They help SMBs structure their financials, access credit and secure the funding needed to scale.</div><div class="pdesc es">Axis Advisors se especializa en contabilidad, finanzas y banca para empresas en crecimiento. Ayudan a las pymes a estructurar sus finanzas, acceder a crédito y asegurar la financiación necesaria para escalar.</div><div class="pitems"><div class="pitem"><div class="pdot pdot-b"></div><span class="en">Business financing and bank relations</span><span class="es">Financiación empresarial y relaciones bancarias</span></div><div class="pitem"><div class="pdot pdot-b"></div><span class="en">Financial structuring for growth</span><span class="es">Estructuración financiera para el crecimiento</span></div><div class="pitem"><div class="pdot pdot-b"></div><span class="en">Accounting, reporting and compliance</span><span class="es">Contabilidad, reporting y cumplimiento</span></div></div><a href="https://axisadvisors.co" target="_blank" rel="noopener" class="plink plink-f"><span class="en">Visit Axis Advisors →</span><span class="es">Visitar Axis Advisors →</span></a></div>
     </div>
   </div>
@@ -549,7 +574,16 @@ footer{background:var(--navy);border-top:1px solid rgba(255,255,255,0.07);paddin
           </select>
         </div>
         <div class="fg"><label class="fl en">Tell us about your situation</label><label class="fl es">Cuéntanos tu situación</label><textarea class="ft" id="f-ms" placeholder="A few lines about your business and what you're trying to solve..."></textarea></div>
-        <button class="fsub" id="f-btn" onclick="submitForm()"><span class="en">Send message →</span><span class="es">Enviar mensaje →</span></button>
+        <div class="fg" style="margin-bottom:20px;">
+  <label style="display:flex;align-items:flex-start;gap:12px;cursor:pointer;">
+    <input type="checkbox" id="f-consent" style="margin-top:3px;accent-color:var(--green-mid);width:16px;height:16px;flex-shrink:0;cursor:pointer;">
+    <span style="font-size:13px;color:rgba(255,255,255,0.5);line-height:1.6;">
+      <span class="en">I accept the <a href="#" onclick="showPrivacy();return false;" style="color:rgba(255,255,255,0.75);text-decoration:underline;">Privacy Policy</a> and consent to Condor Advisory Group contacting me regarding my inquiry.</span>
+      <span class="es">Acepto la <a href="#" onclick="showPrivacy();return false;" style="color:rgba(255,255,255,0.75);text-decoration:underline;">Política de Privacidad</a> y consiento que Condor Advisory Group se ponga en contacto conmigo en relación a mi consulta.</span>
+    </span>
+  </label>
+</div>
+<button class="fsub" id="f-btn" onclick="submitForm()"><span class="en">Send message →</span><span class="es">Enviar mensaje →</span></button>
         <p class="fnote en">We respond within 24 hours. No spam, no mailing lists.</p>
         <p class="fnote es">Respondemos en 24 horas. Sin spam, sin listas de correo.</p>
       </div>
@@ -571,6 +605,7 @@ footer{background:var(--navy);border-top:1px solid rgba(255,255,255,0.07);paddin
       <a href="#partners">Partners</a>
       <a href="#why"><span class="en">Why us</span><span class="es">Por qué</span></a>
       <a href="#contact"><span class="en">Contact</span><span class="es">Contacto</span></a>
+      <a href="#" onclick="showPrivacy();return false;"><span class="en">Privacy Policy</span><span class="es">Privacidad</span></a>
     </div>
     <span class="fcopy">© 2026 Condor Advisory Group</span>
   </div>
@@ -584,7 +619,9 @@ function closeMenu(){document.getElementById('ham').classList.remove('open');doc
 async function submitForm(){
   const fn=document.getElementById('f-fn').value.trim();
   const em=document.getElementById('f-em').value.trim();
+  const consent=document.getElementById('f-consent').checked;
   if(!fn||!em){alert('Please enter your name and email. / Por favor ingresá tu nombre y email.');return;}
+  if(!consent){alert('Please accept the Privacy Policy to continue. / Por favor aceptá la Política de Privacidad para continuar.');return;}
 
   const btn=document.getElementById('f-btn');
   btn.disabled=true;
@@ -621,5 +658,93 @@ async function submitForm(){
   }
 }
 </script>
+
+<!-- COOKIE BANNER -->
+<div id="cookie-banner" style="display:none;position:fixed;bottom:0;left:0;right:0;z-index:999;background:var(--navy);border-top:1px solid rgba(255,255,255,0.1);padding:20px 48px;display:flex;align-items:center;justify-content:space-between;gap:32px;flex-wrap:wrap;">
+  <p style="font-size:13px;color:rgba(255,255,255,0.6);line-height:1.6;margin:0;max-width:700px;">
+    <span class="en">We use cookies to improve your browsing experience and analyse site traffic. By continuing to use this site you accept our use of cookies. <a href="#privacy" onclick="showPrivacy()" style="color:rgba(255,255,255,0.85);text-decoration:underline;">Privacy Policy</a></span>
+    <span class="es">Usamos cookies para mejorar tu experiencia y analizar el tráfico del sitio. Al continuar usando este sitio aceptás el uso de cookies. <a href="#privacy" onclick="showPrivacy()" style="color:rgba(255,255,255,0.85);text-decoration:underline;">Política de Privacidad</a></span>
+  </p>
+  <div style="display:flex;gap:12px;flex-shrink:0;">
+    <button onclick="rejectCookies()" style="font-size:13px;font-weight:500;color:rgba(255,255,255,0.5);background:transparent;border:1px solid rgba(255,255,255,0.2);padding:9px 20px;border-radius:4px;cursor:pointer;font-family:var(--sans);transition:all .2s;">
+      <span class="en">Reject non-essential</span><span class="es">Solo esenciales</span>
+    </button>
+    <button onclick="acceptCookies()" style="font-size:13px;font-weight:500;color:var(--navy);background:rgba(255,255,255,0.92);border:none;padding:9px 20px;border-radius:4px;cursor:pointer;font-family:var(--sans);transition:all .2s;">
+      <span class="en">Accept all</span><span class="es">Aceptar todo</span>
+    </button>
+  </div>
+</div>
+
+<!-- PRIVACY POLICY MODAL -->
+<div id="privacy-modal" style="display:none;position:fixed;top:0;left:0;right:0;bottom:0;z-index:1000;background:rgba(13,30,53,0.7);backdrop-filter:blur(8px);overflow-y:auto;padding:40px 24px;">
+  <div style="max-width:760px;margin:0 auto;background:var(--white);border-radius:12px;padding:52px 56px;position:relative;">
+    <button onclick="hidePrivacy()" style="position:absolute;top:20px;right:24px;background:transparent;border:none;font-size:24px;cursor:pointer;color:var(--ink3);line-height:1;">×</button>
+
+    <h2 style="font-family:var(--serif);font-size:32px;color:var(--navy);margin-bottom:8px;font-weight:400;">
+      <span class="en">Privacy Policy & Cookies</span>
+      <span class="es">Política de Privacidad y Cookies</span>
+    </h2>
+    <p style="font-size:13px;color:var(--ink3);margin-bottom:36px;">
+      <span class="en">Last updated: May 2026</span>
+      <span class="es">Última actualización: Mayo 2026</span>
+    </p>
+
+    <div style="font-size:15px;color:var(--ink2);line-height:1.75;font-weight:300;">
+
+      <h3 style="font-family:var(--serif);font-size:20px;color:var(--navy);margin:28px 0 10px;font-weight:400;">
+        <span class="en">1. Who we are</span><span class="es">1. Quiénes somos</span>
+      </h3>
+      <p class="en">Condor Advisory Group ("Condor", "we", "us") is a business consulting firm based in Barcelona, Spain. We can be contacted at hello@condoradvisory.com.</p>
+      <p class="es">Condor Advisory Group ("Condor", "nosotros") es una firma de consultoría empresarial con sede en Barcelona, España. Puedes contactarnos en hello@condoradvisory.com.</p>
+
+      <h3 style="font-family:var(--serif);font-size:20px;color:var(--navy);margin:28px 0 10px;font-weight:400;">
+        <span class="en">2. What data we collect</span><span class="es">2. Qué datos recopilamos</span>
+      </h3>
+      <p class="en">When you submit the contact form on this website, we collect: your name, email address, phone number (optional), the service you are interested in, and any message you include. We do not collect any data automatically beyond standard server logs and basic analytics.</p>
+      <p class="es">Cuando completas el formulario de contacto de este sitio web, recopilamos: tu nombre, dirección de correo electrónico, número de teléfono (opcional), el servicio en el que estás interesado y el mensaje que incluyas. No recopilamos ningún dato automáticamente más allá de los registros estándar del servidor y analíticas básicas.</p>
+
+      <h3 style="font-family:var(--serif);font-size:20px;color:var(--navy);margin:28px 0 10px;font-weight:400;">
+        <span class="en">3. How we use your data</span><span class="es">3. Cómo usamos tus datos</span>
+      </h3>
+      <p class="en">We use your contact information solely to respond to your inquiry and, if relevant, to follow up regarding our consulting services. We do not sell, rent, or share your personal data with third parties for marketing purposes. Your data is stored securely via Formspree (formspree.io) and is never used for automated profiling.</p>
+      <p class="es">Usamos tu información de contacto únicamente para responder a tu consulta y, si es relevante, para hacer seguimiento sobre nuestros servicios de consultoría. No vendemos, alquilamos ni compartimos tus datos personales con terceros con fines de marketing. Tus datos se almacenan de forma segura a través de Formspree (formspree.io) y nunca se usan para perfiles automatizados.</p>
+
+      <h3 style="font-family:var(--serif);font-size:20px;color:var(--navy);margin:28px 0 10px;font-weight:400;">
+        <span class="en">4. Legal basis (GDPR)</span><span class="es">4. Base legal (RGPD)</span>
+      </h3>
+      <p class="en">The legal basis for processing your data is your explicit consent, given when you tick the consent checkbox and submit the contact form. You may withdraw this consent at any time by contacting us at hello@condoradvisory.com.</p>
+      <p class="es">La base legal para el tratamiento de tus datos es tu consentimiento explícito, otorgado al marcar la casilla de consentimiento y enviar el formulario de contacto. Puedes retirar este consentimiento en cualquier momento contactándonos en hello@condoradvisory.com.</p>
+
+      <h3 style="font-family:var(--serif);font-size:20px;color:var(--navy);margin:28px 0 10px;font-weight:400;">
+        <span class="en">5. How long we keep your data</span><span class="es">5. Durante cuánto tiempo conservamos tus datos</span>
+      </h3>
+      <p class="en">We retain your contact information for up to 24 months from the date of your inquiry, or until you request deletion. After this period, your data is permanently deleted.</p>
+      <p class="es">Conservamos tu información de contacto hasta 24 meses desde la fecha de tu consulta, o hasta que solicites su eliminación. Transcurrido este periodo, tus datos se eliminan de forma permanente.</p>
+
+      <h3 style="font-family:var(--serif);font-size:20px;color:var(--navy);margin:28px 0 10px;font-weight:400;">
+        <span class="en">6. Your rights</span><span class="es">6. Tus derechos</span>
+      </h3>
+      <p class="en">Under GDPR and Spanish data protection law (LOPDGDD), you have the right to: access your personal data, request correction or deletion, restrict or object to processing, and data portability. To exercise any of these rights, contact us at hello@condoradvisory.com. You also have the right to lodge a complaint with the Spanish Data Protection Authority (AEPD) at www.aepd.es.</p>
+      <p class="es">Bajo el RGPD y la ley española de protección de datos (LOPDGDD), tienes derecho a: acceder a tus datos personales, solicitar su rectificación o supresión, limitar u oponerte al tratamiento, y portabilidad de datos. Para ejercer cualquiera de estos derechos, contáctanos en hello@condoradvisory.com. También tienes derecho a presentar una reclamación ante la Agencia Española de Protección de Datos (AEPD) en www.aepd.es.</p>
+
+      <h3 style="font-family:var(--serif);font-size:20px;color:var(--navy);margin:28px 0 10px;font-weight:400;">
+        <span class="en">7. Cookies</span><span class="es">7. Cookies</span>
+      </h3>
+      <p class="en">This website uses only essential cookies necessary for the site to function correctly. We do not use tracking, advertising, or third-party analytics cookies. If you accept all cookies, we may store a small preference cookie to remember your language selection.</p>
+      <p class="es">Este sitio web utiliza únicamente cookies esenciales necesarias para el correcto funcionamiento del sitio. No usamos cookies de seguimiento, publicidad ni analíticas de terceros. Si aceptas todas las cookies, podemos almacenar una pequeña cookie de preferencia para recordar tu selección de idioma.</p>
+
+      <h3 style="font-family:var(--serif);font-size:20px;color:var(--navy);margin:28px 0 10px;font-weight:400;">
+        <span class="en">8. Contact</span><span class="es">8. Contacto</span>
+      </h3>
+      <p class="en">For any questions regarding this privacy policy or your personal data, contact us at: <strong>hello@condoradvisory.com</strong> — Condor Advisory Group, Barcelona, Spain.</p>
+      <p class="es">Para cualquier pregunta sobre esta política de privacidad o tus datos personales, contáctanos en: <strong>hello@condoradvisory.com</strong> — Condor Advisory Group, Barcelona, España.</p>
+    </div>
+
+    <button onclick="hidePrivacy()" style="margin-top:36px;font-size:14px;font-weight:500;color:var(--white);background:var(--navy);border:none;padding:13px 28px;border-radius:4px;cursor:pointer;font-family:var(--sans);">
+      <span class="en">Close</span><span class="es">Cerrar</span>
+    </button>
+  </div>
+</div>
+
 </body>
 </html>
